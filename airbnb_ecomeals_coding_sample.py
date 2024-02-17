@@ -79,7 +79,8 @@ class EcoMealsView(generics.ListCreateAPIView):
                 eco_breakfast=eco_breakfast, eco_lunch=eco_lunch, eco_dinner=eco_dinner
             )
 
-            co2_reduced = self.calculate_co2_reduced(self.request.data)
+            user_ecomeals_input = self.request.data
+            co2_reduced = self.calculate_co2_reduced(user_ecomeals_input)
             ecomeals_points = self.calculate_ecomeals_points(co2_reduced)
 
             # Update EcoMeals instance with co2_reduced and ecomeals_points results
