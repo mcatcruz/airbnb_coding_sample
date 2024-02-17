@@ -12,8 +12,12 @@ from rest_framework import generics
 from .models import Profile, EcoMeals
 from .serializers import EcoMealsSerializer
 
-
+# Points awarded for every 100 grams of CO2 emissions reduced 
 POINTS_AWARDED_100GCO2 = 50
+
+# Conversion factor for CO2 emissions reduced to points
+CO2_REDUCTION_FACTOR = 100
+
 
 # Pre-determined values of total carbon footprint in g CO2-equivalent
 CO2E_PLANTBASED_BREAKFAST_GRAMS = 1100
