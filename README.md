@@ -1,5 +1,5 @@
-# airbnb_coding_sample
-A coding sample by Monica Cruz highlighting her work for EcoQuest, a web application entry for Women Who Code Hackathon for Social Good 2023. This sample is submitted for consideration to the Airbnb 2024 Connect Apprenticeship Program.
+# coding_sample
+A coding sample by Monica Cruz highlighting her work for EcoQuest, a web application entry for Women Who Code Hackathon for Social Good 2023.
 
 # Technologies Used
 - Django Rest Framework
